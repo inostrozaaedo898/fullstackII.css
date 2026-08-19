@@ -27,7 +27,7 @@ main section {
 /* Requisito: Fondo negro en el pie de página */
 footer {
     background-color: #000000;
-    color: #ffffff;
+    color:blue ;
     text-align: center;
     padding: 15px;
     position: relative;
