@@ -18,7 +18,7 @@ fullstackII.css/
 │   ├── css/
 │   │   └── style.css        # Paso 2: Estilos externos y Media Queries manuales
 │   └── images/
-│       └── donkiwicl.jpg    # Recursos de imágenes
+│       └──    .jpg    # Recursos de imágenes
 ├── bootstrap/               # Paso 3: Refactorización con Bootstrap 5
 │   ├── index.html
 │   └── contacto.html
