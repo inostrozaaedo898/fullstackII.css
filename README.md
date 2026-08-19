@@ -1,9 +1,9 @@
-Aquí tienes el archivo **`README.md`** estructurado para que lo copies y pegues directamente en la raíz de tu repositorio en GitHub:
-
 ```markdown
 # 🛒 Lo Quieres, Te Lo Vendo - Maquetación y Frameworks CSS
 
-Este repositorio contiene el desarrollo del proyecto **"Lo quieres, te lo vendo"**, un sitio web para una PYME comercializadora ubicada en Santiago de Chile.
+Este repositorio contiene el desarrollo del proyecto **"Lo quieres, te lo vendo"**,
+ un sitio web para una PYME comercializadora ubicada en Santiago de Chile.
+
  El proyecto abarca desde la maquetación semántica en HTML5 puro hasta la implementación de diseño responsivo con CSS3 tradicional, Bootstrap 5 y Materialize CSS.
 
 ---
