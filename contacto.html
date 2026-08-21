@@ -1,47 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contacto - Lo quieres, te lo vendo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo quieres, te lo vendo - Contacto</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header>
-    <h1 style="front-family: Arial; font-size: 10px;">Lo quieres, te lo vendo</h1>
-</header>
-<nav>
-    <a href="index.html">Inicio</a>
-    <a href="index.html#productos">Productos</a>
-    <a href="contacto.html">Contacto</a>
-</nav>
-<hr>
-<main>
-    <section id="contacto">
-        <h2>Formulario de Contacto</h2>
-        <p>Déjanos tu mensaje y te responderemos a la brevedad</p>
-        <form action="#" method="POST">
-            <div>
-                <label for="nombre">Nombre completo:</label>
-                <input type="text" id="nombre" name="nombre", placeholder="Juan Pérez" required>
-            </div>
-            <br>
-            <div>
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email", placeholder="ejemplo@correo.com" required>
-            </div>
-            <br>
-            <div>
-                <label for="mensaje">Mensaje o consulta:</label>
-                <textarea id="mensaje" name="mensaje", rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
-            </div>
-            <br>
-            <button type="submit">Enviar mensaje</button>
-        </form>
-    </section>
-</main>
-<hr>
-<footer>
-    <p>&copy; 2026 - Los pulentos</p>
-</footer>
+
+    <header>
+        <h1 style="font-family: Arial; font-size: 10px;">Lo quieres, te lo vendo</h1>
+        <nav>
+            <a href="index.html">Inicio</a> | 
+            <a href="index.html#productos">Productos</a> | 
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contacto">
+            <h2>Formulario de Contacto</h2>
+            <p>Déjanos tu mensaje y te responderemos a la brevedad.</p>
+            <form action="#" method="POST">
+                <div>
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Juan Pérez" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.cl" required>
+                </div>
+                <br>
+                <div>
+                    <label for="mensaje">Mensaje o consulta:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+                <br>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Equipo Los Pulentos - DSY1104</p>
+    </footer>
+
 </body>
 </html>

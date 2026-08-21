@@ -1,15 +1,16 @@
-/* Estilos Generales */
+/* Estilos Base */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Requisito: Fondo azul en el menú con texto y enlaces blancos */
+/* Menú: Fondo azul con enlaces blancos */
 nav {
     background-color: #0044ff;
     padding: 12px;
     color: #ffffff;
+    text-align: center;
 }
 
 nav a {
@@ -18,50 +19,50 @@ nav a {
     font-weight: bold;
 }
 
-/* Requisito: Extracto centrado */
+/* Sección de extracto centrada */
 main section {
     text-align: center;
     padding: 20px;
 }
 
-/* Requisito: Fondo negro en el pie de página */
+.img-destacada {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+/* Pie de página con fondo negro */
 footer {
     background-color: #000000;
-    color:blue ;
+    color: #ffffff;
     text-align: center;
     padding: 15px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
 /* ==========================================
-   Requisito: Responsividad para 3 dispositivos
+   Responsividad Manual para 3 Dispositivos
    ========================================== */
 
-/* 1. Celular (Pantallas pequeñas hasta 576px) */
+/* Celular (pantallas pequeñas hasta 576px) */
 @media (max-width: 576px) {
     nav a {
-        display: block; /* Los enlaces se apilan verticalmente en celular */
-        margin: 8px 0;
+        display: block;
+        margin: 6px 0;
     }
     main section {
         padding: 10px;
     }
 }
 
-/* 2. Tablet (Pantallas medianas entre 577px y 992px) */
+/* Tablet (pantallas medianas entre 577px y 992px) */
 @media (min-width: 577px) and (max-width: 992px) {
-    nav {
-        text-align: center;
-    }
     main section {
         width: 80%;
         margin: 0 auto;
     }
 }
 
-/* 3. Escritorio (Pantallas grandes superiores a 992px) */
+/* Escritorio (pantallas grandes superiores a 992px) */
 @media (min-width: 993px) {
     main section {
         width: 60%;

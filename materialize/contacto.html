@@ -1,52 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Compiled and minified CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Materialize</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contacto - Lo quieres, te lo vendo</title>
 </head>
 <body>
-<header>
-    <h1 style="front-family: Arial; font-size: 10px;">Lo quieres, te lo vendo</h1>
-</header>
-<nav>
-    <a href="index.html">Inicio</a>
-    <a href="index.html#productos">Productos</a>
-    <a href="contacto.html">Contacto</a>
-</nav>
-<hr>
-<main>
-    <section id="contacto">
-        <h2>Formulario de contacto</h2>
-        <p>Déjanos tu mensaje y te responderemos a la brevedad</p>
-        <form action="#" method="POST">
-            <div>
-                <label for="nombre">Nombre completo:</label>
-                <input type="text" id="nombre" name="nombre", placeholder="Juan Pérez" required>
-            </div>
-            <br>
-            <div>
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email", placeholder="ejemplo@correo.com" required>
-            </div>
-            <br>
-            <div>
-                <label for="mensaje">Mensaje o consulta:</label>
-                <textarea id="mensaje" name="mensaje", rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
-            </div>
-            <br>
-            <button type="sumbit">Enviar mensaje</button>
-        </form>
-    </section>
-</main>
-<hr>
-<footer>
-    <p>&copy; 2026 - Los pulentos</p>
-</footer>
+
+    <nav class="blue darken-3">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">Lo quieres, te lo vendo</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#productos">Productos</a></li>
+                <li class="active"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container section">
+        <h4 class="center-align">Formulario de Contacto</h4>
+        <div class="row">
+            <form class="col s12 m8 offset-m2" action="#" method="POST">
+                <div class="input-field col s12">
+                    <input id="nombre" type="text" class="validate" required>
+                    <label for="nombre">Nombre completo</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate" required>
+                    <label for="email">Correo electrónico</label>
+                </div>
+                <div class="input-field col s12">
+                    <textarea id="mensaje" class="materialize-textarea" required></textarea>
+                    <label for="mensaje">Mensaje</label>
+                </div>
+                <div class="col s12 center-align">
+                    <button class="btn waves-effect waves-light blue darken-2" type="submit">Enviar mensaje</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Comentarios sobre diferencias solicitados en el Paso 4 -->
+        <section class="card-panel grey lighten-4 my-4">
+            <h5>Diferencias entre Bootstrap y Materialize CSS</h5>
+            <ul>
+                <li><strong>Sintaxis de clases:</strong> Bootstrap utiliza nombres basados en la función del componente (como <code>form-control</code> o <code>btn-primary</code>), mientras que Materialize se apoya en reglas semánticas orientadas a maquetación y la cuadrícula (como <code>input-field</code> o <code>waves-effect</code>).</li>
+                <li><strong>Estilo visual:</strong> Materialize impone la identidad de <em>Material Design</em> (sombras, animaciones de clic y etiquetas flotantes), mientras que Bootstrap provee un diseño corporativo más neutro y personalizable.</li>
+                <li><strong>Documentación y actualización:</strong> Bootstrap posee una comunidad más amplia y documentación frecuentemente actualizada, lo que facilita resolver errores rápidamente en comparación a Materialize.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="page-footer grey darken-4 center-align">
+        <div class="container">
+            <p>&copy; 2026 Equipo Los Pulentos - DSY1104</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
