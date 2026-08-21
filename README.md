@@ -10,7 +10,6 @@ Este repositorio contiene el desarrollo del proyecto **"Lo quieres, te lo vendo"
 
 ## 📂 Estructura del Repositorio
 
-```text
 fullstackII.css/
 ├── index.html               # Paso 1: Inicio en HTML5 puro
 ├── contacto.html            # Paso 1: Formulario de contacto en HTML5
