@@ -4,7 +4,9 @@
 Este repositorio contiene el desarrollo del proyecto **"Lo quieres, te lo vendo"**,
  un sitio web para una PYME comercializadora ubicada en Santiago de Chile.
 
- El proyecto abarca desde la maquetación semántica en HTML5 puro hasta la implementación de diseño responsivo con CSS3 tradicional, Bootstrap 5 y Materialize CSS.
+ El proyecto abarca desde la maquetación semántica en HTML5 puro
+ hasta la implementación de diseño responsivo con CSS3 tradicional,
+ Bootstrap 5 y Materialize CSS.
 
 ---
 
